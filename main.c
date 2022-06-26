@@ -54,7 +54,8 @@ int main() {
     printf("y == z: (%d) == (%d) always false (%d)\n", y, z, y == z);
     z = 10;
     printf("y == z: (%d) == (%d) always true (%d)\n", y, z, y == z);
-
+    z = 30;
+    printf("y == z: (%d) == (%d) always true (%d)\n", y, z, y != z);
 
     return 0;
 }
