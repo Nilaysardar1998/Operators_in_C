@@ -33,5 +33,14 @@ int main() {
     //(+=) Assignment operator
     x += 5;
     printf("Value of x using (+=) assignment operator is %d\n", x);
+    //(-=) Assignment operator
+    x -= 5;
+    printf("Value of x using (-=) assignment operator is %d\n", x);
+    //(*=) Assignment operator
+    x *= 5;
+    printf("Value of x using (*=) assignment operator is %d\n", x);
+    //(*=) Assignment operator
+    x /= 5;
+    printf("Value of x using (/=) assignment operator is %d\n", x);
     return 0;
 }
