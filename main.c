@@ -25,5 +25,10 @@ int main() {
     //(--) Arithmetic operator
     result = a-- + b--;
     printf("%d - %d = %d\n", a--, b--, result);
+
+    //Assignment Operator
+    //(=) Assignment operator
+    int x = 10;
+    printf("Value of x is %d", x);
     return 0;
 }
