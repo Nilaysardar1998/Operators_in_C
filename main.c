@@ -29,9 +29,9 @@ int main() {
     //Assignment Operator
     //(=) Assignment operator
     int x = 10;
-    printf("Value of x using (=) assignment operator is %d", x);
+    printf("Value of x using (=) assignment operator is %d\n", x);
     //(+=) Assignment operator
     x += 5;
-    printf("Value of x using (+=) assignment operator is %d", x);
+    printf("Value of x using (+=) assignment operator is %d\n", x);
     return 0;
 }
