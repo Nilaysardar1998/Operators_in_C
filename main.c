@@ -39,8 +39,11 @@ int main() {
     //(*=) Assignment operator
     x *= 5;
     printf("Value of x using (*=) assignment operator is %d\n", x);
-    //(*=) Assignment operator
+    //(/=) Assignment operator
     x /= 5;
     printf("Value of x using (/=) assignment operator is %d\n", x);
+    x %= 4;
+    //(%=) Assignment operator
+    printf("Value of x using (%=) assignment operator is %d\n", x);
     return 0;
 }
